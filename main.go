@@ -110,7 +110,7 @@ func ListTasks(engine *xorm.Engine) {
 	}
 }
 
-func EditTask(engine *xorm.Engine)   {
+func EditTask(engine *xorm.Engine) {
 	fmt.Println()
 	fmt.Println("---------------------------")
 	fmt.Println("Edit task ...")
@@ -121,7 +121,7 @@ func EditTask(engine *xorm.Engine)   {
 	var (
 		ID int
 
-		new_name string
+		new_name    string
 		new_content string
 
 		new_task Task
